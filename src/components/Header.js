@@ -6,7 +6,7 @@ const Header = ({onAdd, showAdd}) => {
 
     return (
         <header className='header'>
-            <h1>Task Tracker</h1>
+            <h1>To-Do List</h1>
             <Button onClick={onAdd} text={showAdd ? 'Close' : 'Add'}/>
         </header>
     );
